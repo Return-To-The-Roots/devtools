@@ -1,0 +1,11 @@
+LIBRARY LIBICONV2
+EXPORTS
+	DllGetVersion					@1
+	_libiconv_version				@2
+	libiconv						@3
+	libiconv_close					@4
+	libiconv_open					@5
+	libiconv_set_relocation_prefix	@6
+	libiconvctl						@7
+	libiconvlist					@8
+	locale_charset					@9
